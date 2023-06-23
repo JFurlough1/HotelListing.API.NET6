@@ -8,6 +8,6 @@
         public string ShortName { get; set; }
 
         // Defining List of Hotels for One to Many Relationship
-        public virtual IList<Hotel> Hotels { get; set;}
+        public virtual IList<Hotel>? Hotels { get; set; }
     }
 }
